@@ -1,0 +1,36 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+  min-height: 100svh;
+}
+.layout > * {
+  padding: 0px 0.5rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: goldenrod;
+  color: blueviolet;
+}
+
+.mainNav > ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.main {
+  flex-grow: 10;
+}
+
+.footer {
+  margin-top: 1.5rem;
+  text-align: center;
+
+  background-color: rgb(195, 168, 102);
+  color: blueviolet;
+}
